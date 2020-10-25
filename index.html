@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+  <style>
+    *,
+    *::before,
+    *::after {
+      outline: none;
+      margin: 0;
+      padding: 0;
+
+      overflow: hidden;
+      /* 
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none; 
+      */
+    }
+
+    #display {
+      position: fixed;
+      left: 16px;
+      top: 16px;
+      padding: 2rem;
+      background-color: #eeeeee;
+      border: #e4e4e4 1px solid;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 32px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.16);
+    }
+  </style>
+</head>
+
+<body>
+  <canvas></canvas>
+  <div id="display"></div>
+
+  <script src="core.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>
